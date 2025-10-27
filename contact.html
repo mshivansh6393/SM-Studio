@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - SM Studio</title>
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+header {
+  background-color: #1f1f1f;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #00ffcc;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: #f0f0f0;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+  color: #00ffcc;
+}
+
+main {
+  padding: 3rem 2rem;
+}
+
+.contact h1 {
+  color: #00ffcc;
+  margin-bottom: 1rem;
+}
+
+.contact p {
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.contact-list {
+  list-style: none;
+  font-size: 1.1rem;
+  line-height: 2;
+}
+
+.contact-list a {
+  color: #00ffcc;
+  text-decoration: none;
+}
+
+.contact-list a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #1f1f1f;
+  font-size: 0.9rem;
+}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">SM Studio</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="team.html">Team / Join Us</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact">
+      <h1>Get in Touch</h1>
+      <p>We’d love to hear from you! Reach out through any of the platforms below:</p>
+
+      <ul class="contact-list">
+        <li><strong>Email:</strong> <a href="mailto:contact@smstudio.games">contact@smstudio.games</a></li>
+        <li><strong>YouTube:</strong> <a href="https://www.youtube.com/@smstudio" target="_blank">youtube.com/@smstudio</a></li>
+        <li><strong>Instagram:</strong> <a href="https://www.instagram.com/smstudio" target="_blank">@smstudio</a></li>
+        <li><strong>Discord:</strong> <a href="https://discord.gg/smstudio" target="_blank">Join our Discord</a></li>
+        <li><strong>Reddit:</strong> <a href="https://www.reddit.com/r/smstudio" target="_blank">r/smstudio</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 SM Studio. All rights reserved.</p>
+  </footer>
+</body>
+</html>

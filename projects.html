@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects - SM Studio</title>
+  <link rel="stylesheet" href="projects.css" />
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+header {
+  background-color: #1f1f1f;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #00ffcc;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: #f0f0f0;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+  color: #00ffcc;
+}
+
+main {
+  padding: 3rem 2rem;
+}
+
+.projects h1 {
+  color: #00ffcc;
+  margin-bottom: 1rem;
+}
+
+.projects p {
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.project-card {
+  background-color: #1f1f1f;
+  padding: 1rem;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.02);
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.project-card h2 {
+  color: #00ffcc;
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #1f1f1f;
+  font-size: 0.9rem;
+}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">SM Studio</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="team.html">Team / Join Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="projects">
+      <h1>Our Projects</h1>
+      <p>Explore the worlds we've built and the adventures we've crafted.</p>
+
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="https://via.placeholder.com/400x250?text=Project+1" alt="Project 1" />
+          <h2>Shadow Realms</h2>
+          <p>A dark fantasy RPG where players uncover ancient secrets and battle mythical beasts.</p>
+        </div>
+
+        <div class="project-card">
+          <img src="https://via.placeholder.com/400x250?text=Project+2" alt="Project 2" />
+          <h2>Pixel Racer</h2>
+          <p>Retro-style racing game with customizable cars and high-speed pixel thrills.</p>
+        </div>
+
+        <div class="project-card">
+          <img src="https://via.placeholder.com/400x250?text=Project+3" alt="Project 3" />
+          <h2>Skybound</h2>
+          <p>An aerial adventure where players pilot airships through floating cities and sky pirates.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 SM Studio. All rights reserved.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Join Us - SM Studio</title>
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+header {
+  background-color: #1f1f1f;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #00ffcc;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: #f0f0f0;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+  color: #00ffcc;
+}
+
+main {
+  padding: 3rem 2rem;
+}
+
+.team h1 {
+  color: #00ffcc;
+  margin-bottom: 1rem;
+}
+
+.team p {
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.member {
+  background-color: #1f1f1f;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.member h2 {
+  color: #00ffcc;
+  margin-bottom: 0.5rem;
+}
+
+.join-section {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.join-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #00ffcc;
+}
+
+.join-button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  background-color: #00ffcc;
+  color: #121212;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.join-button:hover {
+  background-color: #00e6b3;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #1f1f1f;
+  font-size: 0.9rem;
+}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">SM Studio</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="team.html" class="active">Team / Join Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="team">
+      <h1>Meet Our Team</h1>
+      <p>SM Studio is powered by a passionate crew of creators. Here's who we are:</p>
+
+      <div class="team-grid">
+        <div class="member">
+          <h2>Game Designers</h2>
+          <p>Crafting mechanics, levels, and player experiences that keep gamers hooked.</p>
+        </div>
+        <div class="member">
+          <h2>Developers</h2>
+          <p>Building the codebase, optimizing performance, and bringing ideas to life.</p>
+        </div>
+        <div class="member">
+          <h2>Artists</h2>
+          <p>Designing characters, environments, and visual effects that define our worlds.</p>
+        </div>
+        <div class="member">
+          <h2>Sound Engineers</h2>
+          <p>Creating immersive soundscapes and unforgettable audio experiences.</p>
+        </div>
+        <div class="member">
+          <h2>Writers</h2>
+          <p>Weaving stories, dialogue, and lore that deepen player connection.</p>
+        </div>
+      </div>
+
+      <div class="join-section">
+        <h2>Want to be part of SM Studio?</h2>
+        <p>We're always looking for passionate talent. Whether you're a coder, artist, or storyteller — we want to hear from you!</p>
+        <a href="https://forms.gle/your-google-form-link" target="_blank" class="join-button">Apply Now</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 SM Studio. All rights reserved.</p>
+  </footer>
+</body>
+</html>
